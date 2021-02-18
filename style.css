@@ -16,10 +16,11 @@ section {
 
 }
 .container .slide {
-
+    transition: width .5s;
 }
 .container .slide1 {
     width: 100vw;
+
     height: 100%;
     background-image: url(img/img1.jpg);
 }
@@ -27,6 +28,7 @@ section {
     height: 100%;
     background-image: url(img/img2.jpg);
 }.container .slide3 {
+
     height: 100%;
     background-image: url(img/img3.jpg);
 }
