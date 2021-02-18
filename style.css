@@ -16,7 +16,9 @@ section {
 
 }
 .container .slide {
-    transition: width .5s;
+    transition: width .5s linear;
+    background-size: cover;
+    background-position: center center;
 }
 .container .slide1 {
     width: 100vw;
